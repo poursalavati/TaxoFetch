@@ -13,6 +13,9 @@ Standard NCBI downloaders often fail if a specific species name doesn't have a p
 2.  **Genus Fallback:** If not found, it automatically identifies the highest-quality assembly within the same Genus (e.g., *Amaranthus hypochondriacus*) to serve as a proxy.
 3.  **Cross-Database Search:** It scans both **RefSeq** (NCBI-curated) and **GenBank** (author-submitted) to ensure you don't miss available data.
 
+## 💡 Motivation
+TaxoFetch was created at the request of my lab mate, Émilie Beauregard, who needed a way to automatically find related proxy genomes for insects when a specific species assembly is unavailable.
+
 ## 🛠 Workflow
 
 ```mermaid
